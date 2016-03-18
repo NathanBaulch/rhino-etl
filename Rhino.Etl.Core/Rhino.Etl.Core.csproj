@@ -60,9 +60,6 @@
     <Reference Include="Common.Logging">
       <HintPath>..\SharedLibs\Common.Logging\Common.Logging.dll</HintPath>
     </Reference>
-    <Reference Include="FileHelpers">
-      <HintPath>..\SharedLibs\FileHelpers\FileHelpers.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core">
@@ -92,8 +89,6 @@
     <Compile Include="ConventionOperations\ConventionOutputCommandOperation.cs" />
     <Compile Include="Operations\OperationStatistics.cs" />
     <Compile Include="EtlProcessBase.cs" />
-    <Compile Include="Files\FluentFile.cs" />
-    <Compile Include="Files\FileEngine.cs" />
     <Compile Include="IPipelineExecuter.cs" />
     <Compile Include="Operations\AbstractAggregationOperation.cs" />
     <Compile Include="Operations\AbstractCommandOperation.cs" />

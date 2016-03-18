@@ -1,4 +1,4 @@
-namespace Rhino.Etl.Core.Files
+namespace Rhino.Etl.Tests.UsingDAL
 {
     using System;
     using System.Collections;

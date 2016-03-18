@@ -6,7 +6,6 @@ namespace Rhino.Etl.Tests.UsingDAL
 {
     using System.Collections.Generic;
     using Core;
-    using Rhino.Etl.Core.Files;
     using Rhino.Etl.Core.Operations;
     using System.Linq;
 
