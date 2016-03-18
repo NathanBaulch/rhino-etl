@@ -15,7 +15,7 @@ namespace Rhino.Etl.Cmd
 
         public static void SetupLogging(bool verbose)
         {
-            Common.Logging.LogManager.Adapter = new Log4NetLoggerFactoryAdapter(new NameValueCollection());
+            Common.Logging.LogManager.Adapter = new Log4NetLoggerFactoryAdapter(new Common.Logging.Configuration.NameValueCollection());
 
             string configurationName = "Rhino.Etl.Cmd.standard.log4net.config";
             if (verbose)
